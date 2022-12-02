@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: clone
+  image: node:16.13.0
+  commands:
+  - echo "Hello Test"
